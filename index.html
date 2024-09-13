@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Semántico</title>
+</head>
+<body>
+    
+    <!-- Encabezado principal: Debe incluir el título de la página y un menú de navegación con tres enlaces: "Inicio", "Acerca de", y "Contacto". -->
+     <header>
+        <h1>Bienvenido a Mi Sitio Web</h1>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca De</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+     </header>
+
+     <!-- Sección de introducción: Contiene un párrafo de bienvenida y una imagen relacionada con el contenido del sitio. -->
+
+
+     <section id="inicio">
+        <h2>Introducción</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit pariatur inventore cumque natus aspernatur voluptatum voluptatem assumenda quaerat facilis commodi optio, perspiciatis error? Alias exercitationem ducimus, harum hic nemo deleniti?</p>
+        <img src="https://www.shutterstock.com/image-illustration/view-waterfall-forest-600nw-2327645439.jpg" alt="imagen_introduccion">
+     </section>
+
+
+     <!-- Sección de artículos: Crea una lista de al menos dos artículos. Cada artículo debe tener un título, una breve descripción, y un enlace para "Leer más". -->
+     <main>
+        <section id="acerca">
+            <h2>Mis artículos recientes</h2>
+
+            <article>
+                <h3>Título del Artículo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit labore tempore recusandae quam omnis nobis magnam, cumque expedita eveniet ipsa eius architecto quos maxime rem placeat hic sit quaerat?</p>
+                <a href="#">Leer Más</a>
+            </article>
+
+            <article>
+                <h3>Título del Artículo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, quos. Amet maiores ea similique inventore eius, illo perspiciatis doloribus molestiae quasi in autem eaque doloremque et quia accusantium ullam velit.</p>
+                <a href="#">Leer Más</a>
+            </article>
+        </section>
+     </main>
+
+     <!-- Formulario de contacto: Incluye campos para el nombre, email, y un área para el mensaje. Debe tener un botón para enviar el formulario. -->
+
+     <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="/submit" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+     </section>
+
+     <!-- Pie de página: Incluye información de derechos de autor y enlaces a las redes sociales. -->
+
+     <video src="" controls></video>
+
+     <footer>
+        <div>
+            <p>Todos los derechos resevados &copy;</p>
+        </div>
+
+        <div>
+            <a href="www.tiktok.com" target="_blank">Tiktok</a>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="www.x.com" target="_blank">X</a>
+        </div>
+     </footer>
+     <br>
+     <br>
+
+
+</body>
+</html>
